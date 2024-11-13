@@ -1,0 +1,37 @@
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:cursive;
+    background: yellow;
+}
+#border{
+    margin:0px;
+}
+.menu{
+    text-align: right;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    background: #f0efeb;
+}
+.menu > li{
+    
+    display:inline;
+    margin-right:15px;
+    letter-spacing:3px;
+    cursor:pointer;
+    font-size:20px;
+}
+.footer{
+    background: yellow;
+    position: fixed;
+    bottom:0;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+}
